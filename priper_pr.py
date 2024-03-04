@@ -1,4 +1,4 @@
-#Las variables en python no se necesitan declarar el tipo, el mismo interprete se encarga de definirse  
+#Las variables en python no se necesitan declarar el tipo, el mismo interprete se encarga de definirlas  
 s = "Hola mundo"
 n = len(s)
 print(s)
@@ -14,7 +14,7 @@ s2 = "apoco si"
 print("Esta es la cadena Original: "+s2)
 print("Esta es la cadena despues de capitalize: "+s2.capitalize())
 #Funcion find te regresa un entero el cual indica en que caracter se encuentra alguna cadena
-print("Esta es la cadena despues de find: "+s2[s2.find("si"):])
+print("Esta es la cadena despues de find: "+s2[s2.find("oco"):])
 #Funcion index indica la cantidad de veces que aparece un caracter en un string 
 n = s2.index("o")
 print(n)
@@ -36,3 +36,18 @@ print(x3)
 """Otro de los operadores que se usan es "**" el caul se usa para los exponentes"""
 x4 = 2**3
 print(x4)
+#Operadores logicos AND, OR y NOT
+"""La prioridad en el codigo es NOT, AND, OR""" 
+a = 1
+b = 2
+c = 3
+d = 4
+print("Se checa si 1 es mneor a 2 y si 3 es menor 4")
+print((a<b)and (c<d))
+"""Los operadore ">" "<" "==" ">=" "<=" "!=" se pueden usar para ver si una cadena es alfanmericamente mas grande a otra"""
+print("Se checa si la cadena A es menor a la cadena AB ")
+print("A" <"B")
+#Uso de condicionales
+if a<b:
+    a+=b
+    print(a)
