@@ -52,4 +52,11 @@ if a<b:
     a+=b
     print("Resultado del if")
     print(a)
-
+#sintaxis de if
+"""if a<b:"""
+#sintaxis de else if
+"""elif"""
+#sintaxis de else
+"""else:"""
+"""Todos estos se manejan con tabulaciones en ves de llaves 
+los cierres de estos es regresando del tabulador"""
