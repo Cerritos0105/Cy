@@ -50,4 +50,6 @@ print("A" <"B")
 #Uso de condicionales
 if a<b:
     a+=b
+    print("Resultado del if")
     print(a)
+
