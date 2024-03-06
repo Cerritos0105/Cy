@@ -15,7 +15,7 @@ print("Esta es la cadena Original: "+s2)
 print("Esta es la cadena despues de capitalize: "+s2.capitalize())
 #Funcion find te regresa un entero el cual indica en que caracter se encuentra alguna cadena
 print("Esta es la cadena despues de find: "+s2[s2.find("oco"):])
-#Funcion index indica la cantidad de veces que aparece un caracter en un string 
+#Funcion index indica la cantidad de veces que aparece un caracter en un string
 n = s2.index("o")
 print(n)
 #Funciones con "is" se enfocan es retornar verdadero o falso basandose si una cadena solo tiene ciertas caracteristicas
@@ -138,3 +138,18 @@ for i in arr:
     print(i)
 """Con los dicionarios funciona diferente ya que contiene 2 datos estos se
  muestras con el .values"""
+dic2 = {"a":20, "b":40}
+print("Se precentan los valore del diiconario")
+for i in dic2.values ():
+    print(i)
+"""Para imprimir ambos valores se necesita hacer lo siguiente"""
+print("Se presenta los items del diccionario")
+for i, j in dic2.items():
+    print(i , j)
+#Ciclos while
+"""Sintaxis de while"""
+print("Se precenta el ciclo while")
+m = 0
+while m < 10:
+    print(m)
+    m+=1
