@@ -90,3 +90,9 @@ arr.pop()
 arr.reverse()
 """Sort se uliza para ordenar la lista y se ade oreden acendente o decendente"""
 arr.sort()
+#Diccionarios 
+"""Un diccionario en python es lo  mismo que un map en c++ dos datos en donde uno funciona de indice y el otro es valor"""
+dic = {"A":20, "B":30}
+print(dic["A"])
+"""Para eliminar un valor del dccionario se usa del"""
+del dic["A"]
