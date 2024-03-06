@@ -67,12 +67,21 @@ print(arr[1])
 """Para agregar datos al final del arreglo se utliza lo siguiente"""
 n = int(input("Tecle un numero para agregar a el arreglo: "))
 arr.append(n)
+print("Se precenta el arreglo con el dato que  colocaste")
+for i in range(0, 5):
+    print(arr[i])
 """Otra manera de agregar datos al arreglo se utiliza insert pero este es mas especifico 
 con el echo de que lo coloca en un punto especifico por ejemplo: """
 arr.insert(1,n)
+print("Se precenta el arreglo con el dato con el numero que nos dio en la pocision 1")
+for i in range(0, 6):
+    print(arr[i])
 """Para eliminar se utiliza remove pero este elimina el primer elemnto que 
 coincida con el dato por ejemplo: """
+print("Se elimina el numero que nos diste en su primera aparcion")
 arr.remove(n)
+for i in range(0, 5):
+    print(arr[i])
 """Para saber si un dato existe en el arreglo se utiliza in este comando regresa un dato bool"""
 print(n in arr)
 """Para encontrar la posición de un dato dentro de un arreglo usamos index """
@@ -83,16 +92,49 @@ print("Se muestra la cantidad de veces que parece el numero que ingreso en eñ a
 print(arr.count(n))
 """Para fucionar arreglos se utiliza enxtend"""
 arr2 =[2,3,4,5,6]
+print("Se precenta la fucion de 2 arreglo")
 arr.extend(arr2)
+for i in range(0, 10):
+    print(arr[i])
 """Para eliminar el ultimo dato del areglo se utiliza pop"""
+print("Se elimino el ultio dato del arreglo")
 arr.pop()
+for i in range(0, 9):
+    print(arr[i])
 """Revese se utiliza para invertir el orden de la lista"""
+print("Se invierte el orden del arreglo")
 arr.reverse()
+for i in range(0, 9):
+    print(arr[i])
 """Sort se uliza para ordenar la lista y se ade oreden acendente o decendente"""
+print("Se ordena el arrglo")
 arr.sort()
+for i in range(0, 9):
+    print(arr[i])
 #Diccionarios 
-"""Un diccionario en python es lo  mismo que un map en c++ dos datos en donde uno funciona de indice y el otro es valor"""
+"""Un diccionario en python es lo  mismo que un map en c++ dos datos en 
+donde uno funciona de indice y el otro es valor"""
+print("Se muestra el dato en la pocision A")
 dic = {"A":20, "B":30}
 print(dic["A"])
 """Para eliminar un valor del dccionario se usa del"""
 del dic["A"]
+#Ciclos for
+print("Ciclo for en con 2 parametros")
+for i in range(0, 10):
+    print(i)
+"""En caso de colocar solo un valor la variable se iniciiara en 0 por defceto"""
+print("ciclo con un solo paramero")
+for i in range(4):
+    print(i)
+"""En estos ciclos tambien podemos definir de cuanto e cuanto 
+queremos que auoente la varible indeice"""
+print("Ciclo for con 3 parametros")
+for i in range(0,10,2):
+    print(i)
+"""En los iiterables no tiene una funcion .size como en otros leguanjes pero 
+los ciclos se adaptan a los iterables"""
+for i in arr:
+    print(i)
+"""Con los dicionarios funciona diferente ya que contiene 2 datos estos se
+ muestras con el .values"""
