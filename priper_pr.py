@@ -60,3 +60,33 @@ if a<b:
 """else:"""
 """Todos estos se manejan con tabulaciones en ves de llaves 
 los cierres de estos es regresando del tabulador"""
+#Arreglos / listas en python
+arr=[1,2,3,4]
+print("Se presenta la pocisión 1 del arreglo")
+print(arr[1])
+"""Para agregar datos al final del arreglo se utliza lo siguiente"""
+n = int(input("Tecle un numero para agregar a el arreglo: "))
+arr.append(n)
+"""Otra manera de agregar datos al arreglo se utiliza insert pero este es mas especifico 
+con el echo de que lo coloca en un punto especifico por ejemplo: """
+arr.insert(1,n)
+"""Para eliminar se utiliza remove pero este elimina el primer elemnto que 
+coincida con el dato por ejemplo: """
+arr.remove(n)
+"""Para saber si un dato existe en el arreglo se utiliza in este comando regresa un dato bool"""
+print(n in arr)
+"""Para encontrar la posición de un dato dentro de un arreglo usamos index """
+print("El dato que nos diste se encuntra en la pocision ")
+print(arr.index(n))
+"""Para contar cuantas veces aparece un elento en el arreglo se usa count"""
+print("Se muestra la cantidad de veces que parece el numero que ingreso en eñ arreglo")
+print(arr.count(n))
+"""Para fucionar arreglos se utiliza enxtend"""
+arr2 =[2,3,4,5,6]
+arr.extend(arr2)
+"""Para eliminar el ultimo dato del areglo se utiliza pop"""
+arr.pop()
+"""Revese se utiliza para invertir el orden de la lista"""
+arr.reverse()
+"""Sort se uliza para ordenar la lista y se ade oreden acendente o decendente"""
+arr.sort()
