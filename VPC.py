@@ -9,5 +9,5 @@ img[3,4]=200
 img[4,5]=255
 
 print(img)
-plt.imshow(img, cmap='RGB')
+plt.imshow(img, cmap='gray')
 plt.show()
