@@ -17,7 +17,6 @@ B[:,:] = 255
 img[:,:,0]=R
 img[:,:,1]=G
 img[:,:,2]=B
-
 print(img)
 #Se muestra la imagen 
 plt.imshow(img)
