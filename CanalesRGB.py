@@ -29,15 +29,15 @@ fig = plt.figure()
 #Canal rojo
 ax1 = fig.add_subplot(2,2,1)
 ax1.imshow(R)
-ax1.set_title("Rojo pro")
+ax1.set_title("Rojo",)
 #Canal verde
 ax2 = fig.add_subplot(2,2,2)
 ax2.imshow(G)
-ax2.set_title("Verde pro")
+ax2.set_title("Verde")
 #Canal azul
 ax3 = fig.add_subplot(2,2,3)
 ax3.imshow(B)
-ax3.set_title("Azul pro")
+ax3.set_title("Azul")
 #Imgaen original
 ax4 = fig.add_subplot(2,2,4)
 ax4.imshow(img)
