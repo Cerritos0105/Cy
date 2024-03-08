@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 #Creo la matris principal
 img = cv2.imread("kirby.png")
 #img = cv2.imread("rojo.jpg")
-
+#img = cv2.imread("amarillo.jpg")
+#img = cv2.imread("verde.jpg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 #Extraer los canales R G B
 R = img[:,:,0]
