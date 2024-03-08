@@ -3,13 +3,24 @@ import cv2
 import matplotlib.pyplot as plt
 #Creo la matris principal
 img = cv2.imread("kirby.png")
+#img = cv2.imread("rojo.jpg")
+
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 #Extraer los canales R G B
 R = img[:,:,0]
 G = img[:,:,1]
 B = img[:,:,2]
+R = cv2.cvtColor(R, cv2.COLOR_BGR2RGB)
+G = cv2.cvtColor(G, cv2.COLOR_BGR2RGB)
+B = cv2.cvtColor(B, cv2.COLOR_BGR2RGB)
 #imprimimos los valores de la imagen
 print(img)
+print("Rojo")
+print(R)
+print("Verde")
+print(G)
+print("Azul")
+print(B)
 #comando pro
 #R , G, B = cv2.split(img)
 #Mostrammos los canales
